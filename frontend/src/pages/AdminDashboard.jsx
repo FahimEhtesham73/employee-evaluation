@@ -1,23 +1,21 @@
-
-
-import React from 'react';
-
-const EvaluatorDashboard = () => {
+const AdminDashboard = () => {
   const dashboardStyle = {
-    backgroundColor: '#e6f7ff',
+    backgroundColor: '#f0f0f0',
     padding: '20px',
     border: '1px solid #ccc',
     borderRadius: '5px',
-    textAlign: 'center',
-    fontSize: '24px',
-    fontWeight: 'bold',
+    textAlign: 'center'
+  };
+
+  const headingStyle = {
+    color: 'blue'
   };
 
   return (
     <div style={dashboardStyle}>
-      Evaluator Dashboard
+      <h1 style={headingStyle}>Admin Dashboard</h1>
     </div>
   );
 };
 
-export default EvaluatorDashboard;
+export default AdminDashboard;
