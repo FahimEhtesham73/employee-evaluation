@@ -27,6 +27,10 @@ function Register() {
     console.log("data" ,formData)
   };
 
+  if(success){
+    navigate("./login")
+  }
+
   return (
     <Container>
       
