@@ -18,8 +18,8 @@ connectDB()
 //rest
 const app = express()
 
-app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views')); // Set the views directory path
+//app.set('view engine', 'ejs');
+//app.set('views', path.join(__dirname, 'views')); // Set the views directory path
 
 
 
