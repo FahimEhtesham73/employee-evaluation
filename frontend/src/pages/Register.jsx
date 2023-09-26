@@ -23,13 +23,9 @@ function Register() {
   const handleSubmit = (e) => {
     e.preventDefault();
     registerUser(formData);
-
+   
     console.log("data" ,formData)
   };
-
-  if(success){
-    navigate("./login")
-  }
 
   return (
     <Container>

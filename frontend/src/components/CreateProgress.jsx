@@ -26,56 +26,58 @@ function CreateProgressComponent() {
   };
 
   return (
-    <div style={styles.container}>
-      <h1 style={styles.heading}>Create Progress Entry</h1>
-      {success && <p style={styles.success}>Progress entry created successfully!</p>}
-      {isLoading && <p style={styles.loading}>Creating progress entry...</p>}
+    <div style={containerStyle}>
+      <h1 style={headerStyle}>Create Progress Entry</h1>
+      {success && (
+        <p style={successMessageStyle}>Progress entry created successfully!</p>
+      )}
+      {isLoading && <p>Loading...</p>}
       {!success && !isLoading && (
-        <form style={styles.form} onSubmit={handleSubmit}>
-          <div style={styles.formGroup}>
-            <label style={styles.label} htmlFor="projectName">
+        <form onSubmit={handleSubmit} style={formStyle}>
+          <div className="form-group" style={inputGroupStyle}>
+            <label htmlFor="projectName" style={labelStyle}>
               Project Name:
             </label>
             <input
-              style={styles.input}
               type="text"
               id="projectName"
               name="projectName"
               value={newEntry.projectName}
               onChange={handleInputChange}
               required
+              style={inputStyle}
             />
           </div>
-          <div style={styles.formGroup}>
-            <label style={styles.label} htmlFor="projectContribution">
+          <div className="form-group" style={inputGroupStyle}>
+            <label htmlFor="projectContribution" style={labelStyle}>
               Project Contribution:
             </label>
             <input
-              style={styles.input}
               type="text"
               id="projectContribution"
               name="projectContribution"
               value={newEntry.projectContribution}
               onChange={handleInputChange}
               required
+              style={inputStyle}
             />
           </div>
-          <div style={styles.formGroup}>
-            <label style={styles.label} htmlFor="progressPercentage">
+          <div className="form-group" style={inputGroupStyle}>
+            <label htmlFor="progressPercentage" style={labelStyle}>
               Progress Percentage:
             </label>
             <input
-              style={styles.input}
               type="number"
               id="progressPercentage"
               name="progressPercentage"
               value={newEntry.progressPercentage}
               onChange={handleInputChange}
               required
+              style={inputStyle}
             />
           </div>
 
-          <button style={styles.button} type="submit" disabled={isLoading}>
+          <button type="submit" disabled={isLoading} style={submitButtonStyle}>
             {isLoading ? "Creating..." : "Create Progress Entry"}
           </button>
         </form>
@@ -84,64 +86,54 @@ function CreateProgressComponent() {
   );
 }
 
-const styles = {
-  container: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    minHeight: "100vh",
-    backgroundColor: "#f0f0f0",
-  },
-  heading: {
-    fontSize: "24px",
-    fontWeight: "bold",
-    margin: "10px 0",
-  },
-  success: {
-    color: "green",
-    margin: "10px 0",
-  },
-  loading: {
-    color: "blue",
-    margin: "10px 0",
-  },
-  form: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    gap: "20px",
-    backgroundColor: "#ffffff",
-    padding: "20px",
-    borderRadius: "5px",
-    boxShadow: "0 0 5px rgba(0, 0, 0, 0.2)",
-  },
-  formGroup: {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "flex-start",
-    width: "100%",
-  },
-  label: {
-    fontSize: "16px",
-    fontWeight: "bold",
-    marginBottom: "5px",
-  },
-  input: {
-    padding: "10px",
-    border: "1px solid #ccc",
-    borderRadius: "3px",
-    width: "100%",
-  },
-  button: {
-    backgroundColor: "#007bff",
-    color: "#fff",
-    padding: "10px 20px",
-    border: "none",
-    borderRadius: "3px",
-    cursor: "pointer",
-    fontSize: "16px",
-  },
+// Define styles as JavaScript objects
+const containerStyle = {
+  textAlign: "center",
+  maxWidth: "400px",
+  margin: "0 auto",
+  padding: "20px",
+};
+
+const headerStyle = {
+  fontSize: "24px",
+  marginBottom: "20px",
+  color: "#333",
+};
+
+const successMessageStyle = {
+  color: "green",
+};
+
+const formStyle = {
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+};
+
+const inputGroupStyle = {
+  marginBottom: "10px",
+  width: "100%",
+};
+
+const labelStyle = {
+  fontSize: "16px",
+};
+
+const inputStyle = {
+  width: "100%",
+  padding: "8px",
+  borderRadius: "4px",
+  border: "1px solid #ccc",
+};
+
+const submitButtonStyle = {
+  backgroundColor: "#007bff",
+  color: "white",
+  padding: "10px 20px",
+  border: "none",
+  borderRadius: "5px",
+  cursor: "pointer",
 };
 
 export default CreateProgressComponent;
+

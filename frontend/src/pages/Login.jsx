@@ -26,6 +26,7 @@ const user = JSON.parse(localStorage.getItem("data"))
 
   }
     useEffect(() => {
+      
       const navigateBasedOnRole = () => {
         if (isLoggedIn && user.role === "admin") {
           navigate("/admin-dashboard");
@@ -45,7 +46,9 @@ const user = JSON.parse(localStorage.getItem("data"))
     <Container>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-        <h1>Login Here</h1>
+        <h1>Employee Evaluation
+          (LogIn Here)
+        </h1>
           <input
           placeholder='E-mail'
             type="email"

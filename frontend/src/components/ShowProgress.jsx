@@ -7,42 +7,41 @@ function ShowProgress() {
 
   const { data, isLoading, error } = useFindProgresdById(id);
   const { success } = useCreateProgress();
+  console.log("success from showprogress", success);
 
   useEffect(() => {}, [success]);
 
   if (isLoading) {
-    return <div style={styles.loading}>Loading...</div>;
+    return <div style={loadingStyle}>Loading...</div>;
   }
 
   if (error) {
-    return (
-      <div style={styles.error}>
-        Error: {error.message}
-      </div>
-    );
+    return <div style={errorStyle}>Error: {error.message}</div>;
   }
 
   return (
-    <div style={styles.container}>
+    <div>
       {data && (
-        <div>
-          <h1 style={styles.heading}>Project Table</h1>
-          <table style={styles.table}>
+        <div style={containerStyle}>
+          <h1 style={headerStyle}>Project Table</h1>
+          <table style={tableStyle}>
             <thead>
               <tr>
-                <th style={styles.tableHeader}>Project Name</th>
-                <th style={styles.tableHeader}>Project Contribution</th>
-                <th style={styles.tableHeader}>Progress Percentage</th>
-                <th style={styles.tableHeader}>Employee Name</th>
+                <th style={tableHeaderStyle}>Project Name</th>
+                <th style={tableHeaderStyle}>Project Contribution</th>
+                <th style={tableHeaderStyle}>Progress Percentage</th>
+                <th style={tableHeaderStyle}>Employee Name</th>
               </tr>
             </thead>
             <tbody>
               {data.map((project, index) => (
-                <tr key={index} style={styles.tableRow}>
-                  <td style={styles.tableData}>{project.projectName}</td>
-                  <td style={styles.tableData}>{project.projectContribution}</td>
-                  <td style={styles.tableData}>{project.progressPercentage}%</td>
-                  <td style={styles.tableData}>{name}</td>
+                <tr key={index}>
+                  <td style={tableCellStyle}>{project.projectName}</td>
+                  <td style={tableCellStyle}>{project.projectContribution}</td>
+                  <td style={tableCellStyle}>
+                    {project.progressPercentage}%
+                  </td>
+                  <td style={tableCellStyle}>{name}</td>
                 </tr>
               ))}
             </tbody>
@@ -53,46 +52,44 @@ function ShowProgress() {
   );
 }
 
-const styles = {
-  container: {
-    padding: "20px",
-  },
-  loading: {
-    fontSize: "18px",
-    fontWeight: "bold",
-    margin: "20px",
-    textAlign: "center",
-  },
-  error: {
-    fontSize: "18px",
-    fontWeight: "bold",
-    margin: "20px",
-    color: "red",
-    textAlign: "center",
-  },
-  heading: {
-    fontSize: "24px",
-    fontWeight: "bold",
-    margin: "20px",
-    textAlign: "center",
-  },
-  table: {
-    width: "100%",
-    borderCollapse: "collapse",
-    margin: "20px",
-  },
-  tableHeader: {
-    backgroundColor: "#000080",
-    color: "#fff",
-    padding: "10px",
-    textAlign: "left",
-  },
-  tableRow: {
-    borderBottom: "1px solid #ccc",
-  },
-  tableData: {
-    padding: "10px",
-  },
+// Define styles as JavaScript objects
+const loadingStyle = {
+  textAlign: "center",
+  fontSize: "20px",
+  marginTop: "20px",
+};
+
+const errorStyle = {
+  textAlign: "center",
+  fontSize: "20px",
+  color: "red",
+  marginTop: "20px",
+};
+
+const containerStyle = {
+  margin: "20px",
+};
+
+const headerStyle = {
+  fontSize: "24px",
+  marginBottom: "20px",
+};
+
+const tableStyle = {
+  width: "100%",
+  borderCollapse: "collapse",
+};
+
+const tableHeaderStyle = {
+  background: "#007bff",
+  color: "white",
+  padding: "10px",
+  textAlign: "left",
+};
+
+const tableCellStyle = {
+  border: "1px solid #ddd",
+  padding: "10px",
 };
 
 export default ShowProgress;

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-
+// Define the Progress schema with validation
 const progressSchema = new mongoose.Schema({
   projectName: {
     type: String,

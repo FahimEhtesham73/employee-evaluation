@@ -1,5 +1,7 @@
+const employeeModel = require("../models/employeeModel");
 const Progress = require("../models/progressModel");
-
+const UserModel =require("../models/userModel")
+Employee = require("../models/employeeModel");
 const progressController = async (req, res) => {
     try {
       const progress = new Progress(req.body);
@@ -28,4 +30,65 @@ const getProgressByUserId = async (req, res) => {
   }
 };
 
-  module.exports = {progressController ,getProgressByUserId};
+const getAllProgress = async (req, res) => {
+  try {
+    const allProgress = await Progress.find();
+
+    res.json(allProgress);
+  } catch (error) {
+    console.error('Error fetching progress:', error);
+    res.status(500).json({ error: 'An error occurred while fetching progress entries.' });
+  }
+};
+
+const addEmployeeRecommendation = async (req, res) => {
+  try {
+    const { employeeName, isRecommendedForIncrement, isRecommendedForPromotion } = req.body;
+
+    const newEmployee = new employeeModel({
+      employeeName,
+      isRecommendedForIncrement,
+      isRecommendedForPromotion,
+    });
+
+    await newEmployee.save();
+
+    res.status(201).json(newEmployee);
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'An error occurred while adding the employee recommendation.' });
+  }
+};
+
+
+const getEmployeeNames = async (req, res) => {
+  try {
+    const employeeNames = await UserModel.find({ role: 'employee' });
+
+    res.json(employeeNames.map((user) => user.name));
+  
+  } catch (error) {
+    console.error('Error fetching employee names:', error);
+    res.status(500).json({ error: 'An error occurred while fetching employee names.' });
+  }
+};
+
+
+const findEmployeesWithRecommendation = async (req, res) => {
+  try {
+    const employeesWithRecommendation = await Employee.find({
+      $or: [
+        { isRecommendedForIncrement: true },
+        { isRecommendedForPromotion: true },
+      ],
+    });
+
+    res.json(employeesWithRecommendation);
+  } catch (error) {
+    console.error('Error finding employees with recommendation:', error);
+    res.status(500).json({ error: 'An error occurred while finding employees with recommendation.' });
+  }
+};
+
+
+  module.exports = {progressController ,getProgressByUserId , addEmployeeRecommendation , getEmployeeNames ,findEmployeesWithRecommendation ,getAllProgress};

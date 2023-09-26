@@ -4,7 +4,6 @@ const dotenv = require("dotenv")
 const connectDB = require("./config/connectDB")
 const userRoutes = require("./routes/userRoute")
 const progressRoute = require("./routes/employeeRoute")
-
 // const path = require("path")
 
 
@@ -18,10 +17,6 @@ connectDB()
 //rest
 const app = express()
 
-//app.set('view engine', 'ejs');
-//app.set('views', path.join(__dirname, 'views')); // Set the views directory path
-
-
 
 //middleware 
 
@@ -33,8 +28,6 @@ app.use(cors())
 app.use('/api/v1/users', userRoutes)
 app.use('/api/v1/employee', progressRoute)
 
-const adminRoute = require('./routes/adminRoute');
-app.use(adminRoute);
 
 //static
 // app.use(express.static(path.join(__dirname, './client/dist')))
@@ -44,6 +37,6 @@ app.use(adminRoute);
 // })
 
 //port  
-const port = 3000 || process.env.PORT 
+const port = 8080 || process.env.PORT 
 
 app.listen(port, ()=> console.log("server running on port "+ port ) ) 

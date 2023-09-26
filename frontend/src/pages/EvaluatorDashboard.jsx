@@ -1,22 +1,14 @@
+import RecommendedEmployeesTable from "../components/FindEmployeeWithRecomendation"
+import Logout from "../components/Logout"
 
-import React from 'react';
 
 const EvaluatorDashboard = () => {
-  const dashboardStyle = {
-    backgroundColor: '#e6f7ff',
-    padding: '20px',
-    border: '1px solid #ccc',
-    borderRadius: '5px',
-    textAlign: 'center',
-    fontSize: '24px',
-    fontWeight: 'bold',
-  };
-
   return (
-    <div style={dashboardStyle}>
-      Evaluator Dashboard
+    <div>
+    <RecommendedEmployeesTable/>
+     <Logout/>
     </div>
-  );
-};
+  )
+}
 
-export default EvaluatorDashboard;
+export default EvaluatorDashboard
