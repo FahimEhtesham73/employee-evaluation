@@ -2,3 +2,4 @@
 // Refactor evaluation API on 9/26/2023
 // Add authentication on 9/28/2023
 // Improve UI responsiveness on 9/29/2023
+// Update documentation on 10/2/2023
