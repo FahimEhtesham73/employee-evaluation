@@ -94,3 +94,4 @@
 // Fix bug in evaluation logic on 9/29/2023
 // Update documentation on 10/2/2023
 // Setup backend server on 10/3/2023
+// Add employee model on 10/5/2023
