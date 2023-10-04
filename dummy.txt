@@ -4,3 +4,4 @@
 // Improve UI responsiveness on 9/29/2023
 // Update documentation on 10/2/2023
 // Implement employee evaluation form on 10/3/2023
+// Add authentication on 10/5/2023
