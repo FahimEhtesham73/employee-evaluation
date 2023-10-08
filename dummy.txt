@@ -84,3 +84,4 @@
 // Create MongoDB connection on 10/3/2023
 // Implement employee evaluation form on 10/5/2023
 // Setup backend server on 10/6/2023
+// Fix bug in evaluation logic on 10/9/2023
