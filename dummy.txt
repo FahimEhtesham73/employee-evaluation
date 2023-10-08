@@ -96,3 +96,4 @@
 // Setup backend server on 10/3/2023
 // Add employee model on 10/5/2023
 // Setup backend server on 10/6/2023
+// Initialize project structure on 10/9/2023
