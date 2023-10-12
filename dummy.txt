@@ -87,3 +87,4 @@
 // Fix bug in evaluation logic on 10/9/2023
 // Create MongoDB connection on 10/10/2023
 // Refactor evaluation API on 10/12/2023
+// Add employee model on 10/13/2023
