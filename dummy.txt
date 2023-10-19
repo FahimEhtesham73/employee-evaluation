@@ -13,3 +13,4 @@
 // Improve UI responsiveness on 10/16/2023
 // Setup backend server on 10/17/2023
 // Update documentation on 10/19/2023
+// Initialize project structure on 10/20/2023
