@@ -16,3 +16,4 @@
 // Initialize project structure on 10/20/2023
 // Update documentation on 10/23/2023
 // Fix bug in evaluation logic on 10/24/2023
+// Refactor evaluation API on 10/26/2023
