@@ -107,3 +107,4 @@
 // Create evaluation dashboard on 10/23/2023
 // Add authentication on 10/24/2023
 // Add performance charts on 10/26/2023
+// Add employee model on 10/27/2023
