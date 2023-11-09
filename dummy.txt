@@ -115,3 +115,4 @@
 // Setup backend server on 11/6/2023
 // Implement employee evaluation form on 11/7/2023
 // Refactor evaluation API on 11/9/2023
+// Add employee model on 11/10/2023
