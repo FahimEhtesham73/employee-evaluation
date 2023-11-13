@@ -117,3 +117,4 @@
 // Refactor evaluation API on 11/9/2023
 // Add employee model on 11/10/2023
 // Add authentication on 11/13/2023
+// Add performance charts on 11/14/2023
