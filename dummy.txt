@@ -120,3 +120,4 @@
 // Add performance charts on 11/14/2023
 // Update documentation on 11/16/2023
 // Initialize project structure on 11/17/2023
+// Update documentation on 11/20/2023
