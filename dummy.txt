@@ -37,3 +37,4 @@
 // Improve UI responsiveness on 11/27/2023
 // Add employee model on 11/28/2023
 // Refactor evaluation API on 11/30/2023
+// Add authentication on 12/1/2023
