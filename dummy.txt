@@ -128,3 +128,4 @@
 // Add performance charts on 11/28/2023
 // Setup backend server on 11/30/2023
 // Fix bug in evaluation logic on 12/1/2023
+// Improve UI responsiveness on 12/4/2023
