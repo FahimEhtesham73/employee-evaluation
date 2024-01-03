@@ -56,3 +56,4 @@
 // Add employee model on 12/29/2023
 // Improve UI responsiveness on 1/1/2024
 // Add authentication on 1/2/2024
+// Add authentication on 1/4/2024
