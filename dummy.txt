@@ -61,3 +61,4 @@
 // Update documentation on 1/8/2024
 // Create evaluation dashboard on 1/9/2024
 // Update documentation on 1/11/2024
+// Add employee model on 1/12/2024
