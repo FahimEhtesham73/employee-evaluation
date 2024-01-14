@@ -21,3 +21,4 @@
 // Setup backend server on 1/9/2024
 // Create evaluation dashboard on 1/11/2024
 // Refactor evaluation API on 1/12/2024
+// Initialize project structure on 1/15/2024
