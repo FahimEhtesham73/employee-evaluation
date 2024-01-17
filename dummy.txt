@@ -23,3 +23,4 @@
 // Refactor evaluation API on 1/12/2024
 // Initialize project structure on 1/15/2024
 // Create evaluation dashboard on 1/16/2024
+// Add authentication on 1/18/2024
