@@ -65,3 +65,4 @@
 // Create MongoDB connection on 1/15/2024
 // Setup backend server on 1/16/2024
 // Improve UI responsiveness on 1/18/2024
+// Add employee model on 1/19/2024
