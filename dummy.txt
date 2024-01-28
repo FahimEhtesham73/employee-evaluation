@@ -30,3 +30,4 @@
 // Setup backend server on 1/25/2024
 // Fix bug in evaluation logic on 1/26/2024
 // Refactor evaluation API on 1/29/2024
+// Add authentication on 1/29/2024
