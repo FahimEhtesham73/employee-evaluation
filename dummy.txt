@@ -37,3 +37,4 @@
 // Add employee model on 2/2/2024
 // Fix bug in evaluation logic on 2/5/2024
 // Create MongoDB connection on 2/6/2024
+// Initialize project structure on 2/7/2024
