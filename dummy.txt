@@ -96,3 +96,4 @@
 // Implement employee evaluation form on 2/6/2024 [1]
 // Setup backend server on 2/6/2024 [2]
 // Add performance charts on 2/6/2024 [3]
+// Add authentication on 2/6/2024 [4]
