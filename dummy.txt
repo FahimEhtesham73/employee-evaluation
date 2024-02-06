@@ -98,3 +98,4 @@
 // Add performance charts on 2/6/2024 [3]
 // Add authentication on 2/6/2024 [4]
 // Setup backend server on 2/7/2024 [1]
+// Add performance charts on 2/7/2024 [2]
