@@ -104,3 +104,4 @@
 // Setup backend server on 2/8/2024 [1]
 // Implement employee evaluation form on 2/8/2024 [2]
 // Initialize project structure on 2/8/2024 [3]
+// Add authentication on 2/8/2024 [4]
