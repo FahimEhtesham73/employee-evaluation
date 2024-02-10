@@ -110,3 +110,4 @@
 // Add authentication on 2/9/2024 [3]
 // Create evaluation dashboard on 2/10/2024 [1]
 // Add employee model on 2/10/2024 [2]
+// Improve UI responsiveness on 2/10/2024 [3]
