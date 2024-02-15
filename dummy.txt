@@ -130,3 +130,4 @@
 // Setup backend server on 2/15/2024 [3]
 // Create MongoDB connection on 2/16/2024 [1]
 // Add authentication on 2/16/2024 [2]
+// Improve UI responsiveness on 2/16/2024 [3]
