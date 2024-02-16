@@ -46,3 +46,4 @@
 // Create evaluation dashboard on 2/8/2024
 // Add employee model on 2/11/2024
 // Initialize project structure on 2/14/2024
+// Create MongoDB connection on 2/17/2024
