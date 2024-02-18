@@ -141,3 +141,4 @@
 // Add employee model on 2/18/2024 [4]
 // Add employee model on 2/19/2024 [1]
 // Create MongoDB connection on 2/19/2024 [2]
+// Add performance charts on 2/19/2024 [3]
