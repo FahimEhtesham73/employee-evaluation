@@ -147,3 +147,4 @@
 // Refactor evaluation API on 2/20/2024 [3]
 // Improve UI responsiveness on 2/20/2024 [4]
 // Initialize project structure on 2/21/2024 [1]
+// Add performance charts on 2/21/2024 [2]
