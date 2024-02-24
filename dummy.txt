@@ -156,3 +156,4 @@
 // Refactor evaluation API on 2/23/2024 [1]
 // Implement employee evaluation form on 2/23/2024 [2]
 // Fix bug in evaluation logic on 2/23/2024 [3]
+// Add employee model on 2/24/2024 [1]
