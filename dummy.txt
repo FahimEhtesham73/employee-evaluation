@@ -161,3 +161,4 @@
 // Fix bug in evaluation logic on 2/24/2024 [3]
 // Create MongoDB connection on 2/24/2024 [4]
 // Fix bug in evaluation logic on 2/25/2024 [1]
+// Add employee model on 2/25/2024 [2]
