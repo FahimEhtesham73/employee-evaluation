@@ -177,3 +177,4 @@
 // Fix bug in evaluation logic on 2/28/2024 [4]
 // Initialize project structure on 2/29/2024 [1]
 // Initialize project structure on 2/29/2024 [2]
+// Create MongoDB connection on 2/29/2024 [3]
