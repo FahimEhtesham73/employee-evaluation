@@ -196,3 +196,4 @@
 // Initialize project structure on 3/5/2024 [2]
 // Setup backend server on 3/5/2024 [3]
 // Add employee model on 3/5/2024 [4]
+// Create MongoDB connection on 3/6/2024 [1]
