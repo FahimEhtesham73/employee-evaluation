@@ -198,3 +198,4 @@
 // Add employee model on 3/5/2024 [4]
 // Create MongoDB connection on 3/6/2024 [1]
 // Setup backend server on 3/6/2024 [2]
+// Fix bug in evaluation logic on 3/6/2024 [3]
