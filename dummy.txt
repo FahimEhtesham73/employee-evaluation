@@ -206,3 +206,4 @@
 // Refactor evaluation API on 3/8/2024 [2]
 // Improve UI responsiveness on 3/8/2024 [3]
 // Initialize project structure on 3/8/2024 [4]
+// Add employee model on 3/9/2024 [1]
