@@ -208,3 +208,4 @@
 // Initialize project structure on 3/8/2024 [4]
 // Add employee model on 3/9/2024 [1]
 // Add authentication on 3/9/2024 [2]
+// Add performance charts on 3/9/2024 [3]
