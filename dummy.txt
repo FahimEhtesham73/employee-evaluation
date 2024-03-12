@@ -220,3 +220,4 @@
 // Update documentation on 3/12/2024 [2]
 // Fix bug in evaluation logic on 3/12/2024 [3]
 // Setup backend server on 3/12/2024 [4]
+// Add employee model on 3/13/2024 [1]
