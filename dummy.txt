@@ -239,3 +239,4 @@
 // Refactor evaluation API on 3/17/2024 [4]
 // Update documentation on 3/18/2024 [1]
 // Setup backend server on 3/18/2024 [2]
+// Fix bug in evaluation logic on 3/18/2024 [3]
