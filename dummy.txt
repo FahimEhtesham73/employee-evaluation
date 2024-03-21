@@ -249,3 +249,4 @@
 // Add performance charts on 3/20/2024 [2]
 // Initialize project structure on 3/20/2024 [3]
 // Add performance charts on 3/20/2024 [4]
+// Create MongoDB connection on 3/21/2024 [1]
