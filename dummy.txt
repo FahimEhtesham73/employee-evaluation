@@ -279,3 +279,4 @@
 // Add authentication on 3/28/2024 [1]
 // Add performance charts on 3/28/2024 [2]
 // Update documentation on 3/28/2024 [3]
+// Initialize project structure on 3/29/2024 [1]
