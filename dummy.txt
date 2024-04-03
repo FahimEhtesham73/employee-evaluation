@@ -299,3 +299,4 @@
 // Improve UI responsiveness on 4/2/2024 [4]
 // Fix bug in evaluation logic on 4/3/2024 [1]
 // Update documentation on 4/3/2024 [2]
+// Initialize project structure on 4/3/2024 [3]
