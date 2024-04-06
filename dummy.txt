@@ -311,3 +311,4 @@
 // Setup backend server on 4/6/2024 [1]
 // Setup backend server on 4/6/2024 [2]
 // Create MongoDB connection on 4/6/2024 [3]
+// Add employee model on 4/6/2024 [4]
