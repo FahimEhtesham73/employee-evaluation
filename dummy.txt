@@ -340,3 +340,4 @@
 // Create MongoDB connection on 4/14/2024 [1]
 // Add performance charts on 4/14/2024 [2]
 // Refactor evaluation API on 4/14/2024 [3]
+// Add employee model on 4/14/2024 [4]
