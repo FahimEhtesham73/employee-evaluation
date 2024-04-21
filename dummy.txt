@@ -365,3 +365,4 @@
 // Setup backend server on 4/21/2024 [1]
 // Add employee model on 4/21/2024 [2]
 // Fix bug in evaluation logic on 4/21/2024 [3]
+// Initialize project structure on 4/21/2024 [4]
