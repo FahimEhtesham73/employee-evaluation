@@ -368,3 +368,4 @@
 // Initialize project structure on 4/21/2024 [4]
 // Setup backend server on 4/22/2024 [1]
 // Refactor evaluation API on 4/22/2024 [2]
+// Create MongoDB connection on 4/22/2024 [3]
