@@ -371,3 +371,4 @@
 // Create MongoDB connection on 4/22/2024 [3]
 // Create evaluation dashboard on 4/23/2024 [1]
 // Improve UI responsiveness on 4/23/2024 [2]
+// Add employee model on 4/23/2024 [3]
