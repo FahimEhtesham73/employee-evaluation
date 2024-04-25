@@ -383,3 +383,4 @@
 // Create MongoDB connection on 4/25/2024 [4]
 // Add employee model on 4/26/2024 [1]
 // Add performance charts on 4/26/2024 [2]
+// Update documentation on 4/26/2024 [3]
