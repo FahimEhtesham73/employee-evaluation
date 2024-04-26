@@ -381,3 +381,4 @@
 // Add authentication on 4/25/2024 [2]
 // Refactor evaluation API on 4/25/2024 [3]
 // Create MongoDB connection on 4/25/2024 [4]
+// Add employee model on 4/26/2024 [1]
