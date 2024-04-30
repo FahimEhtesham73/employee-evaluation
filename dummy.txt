@@ -397,3 +397,4 @@
 // Create evaluation dashboard on 4/29/2024 [3]
 // Improve UI responsiveness on 4/29/2024 [4]
 // Refactor evaluation API on 4/30/2024 [1]
+// Add employee model on 4/30/2024 [2]
